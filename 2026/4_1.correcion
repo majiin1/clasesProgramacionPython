@@ -62,8 +62,14 @@ nueva_frase= frase.replace("gatos","perros")
 print(nueva_frase)=me gustan los perros
 
 5. Qué problema tiene declarar estas variables? (1.5 puntos)
- oración larga = 'hola mundo'
- palabra = 'hola' 'mundo'
+oracion_larga = 'hola mundo'
+palabra = 'hola'+'mundo'
+print(oracion_larga)
+print(palabra)
+
+hola mundo
+holamundo
+
 Python no une textos auntomaticante se tendría que poner el signo de + 
 ### Revisar: ejecuta palabra = 'hola' 'mundo' e imprime palabra: ¿Python de verdad no las une? ¿Qué valor guarda? Además falta explicar la primera declaración: ¿qué problema tiene el NOMBRE oración larga?
 
